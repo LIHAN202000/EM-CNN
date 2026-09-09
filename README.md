@@ -55,4 +55,12 @@ cd ./2_Iterative_refinement
 python run.py
 ```
 
+## Inspired by
 
+Mao L, Cui J, Yu R. Local-orbital tomography with depth-dependent interactions[J]. *Physical Review B*, 2025, 111(6): 064116.
+
+Lee, J., Jeong, C. & Yang, Y. Single-atom level determination of 3-dimensional surface atomic structure via neural network-assisted atomic electron tomography. *Nature Communications* **12**, 1962 (2021).
+
+The code for tomographic image data processing refers to:
+
+[AET-AmorphousMaterials/Supplementary-Data-Codes](https://github.com/AET-AmorphousMaterials/Supplementary-Data-Codes)
