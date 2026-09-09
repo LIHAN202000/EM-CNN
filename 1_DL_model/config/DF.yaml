@@ -1,0 +1,9 @@
+train: "../training_set/"
+valid: "../training_set/test"
+
+MODEL: 0
+checkpoints: "checkpoints"
+
+logging_step: 5000
+batch_size: 24
+lr: 0.0002
