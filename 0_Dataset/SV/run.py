@@ -194,25 +194,25 @@ if __name__ == "__main__":
                 input_patch.astype(np.float32)
             )
 
-            cv2.imwrite(
-                os.path.join(
-                    mask_dir,
-                    f"{count}.png"
-                ),
-                mask_patch.astype(np.uint8)
-            )
-
-            cv2.imwrite(
-                os.path.join(
-                    input_dir,
-                    f"{count}.png"
-                ),
-                np.clip(
-                    input_patch,
-                    0,
-                    255
-                ).astype(np.uint8)
-            )
+            # cv2.imwrite(
+            #     os.path.join(
+            #         mask_dir,
+            #         f"{count}.png"
+            #     ),
+            #     mask_patch.astype(np.uint8)
+            # )
+            #
+            # cv2.imwrite(
+            #     os.path.join(
+            #         input_dir,
+            #         f"{count}.png"
+            #     ),
+            #     np.clip(
+            #         input_patch,
+            #         0,
+            #         255
+            #     ).astype(np.uint8)
+            # )
 
             count += 1
 

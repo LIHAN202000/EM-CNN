@@ -151,7 +151,6 @@ class Radon(nn.Module):
         for i in range(0, Nz):
             defocus = df[i]
 
-            # 原代码 c3=0 后严格剩下这一项
             chi = (
                 -torch.pi
                 * wavelength
@@ -369,11 +368,6 @@ def apply_circular_mask(image, radius):
 
 
 if __name__ == "__main__":
-
-    # =============================
-    # 直接修改这里
-    # =============================
-
     image_path = "../examples.png"
     angles_path = "Angles.txt"
 
