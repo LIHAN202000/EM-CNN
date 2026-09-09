@@ -13,7 +13,9 @@ Li H, Cui W, Lei H, et al. A general data-driven framework for scalable electron
 - opencv-python
 - torch
 - scikit-image
+- scipy
 
+- 
 ## Generate a New Dataset
 
 ```bash
